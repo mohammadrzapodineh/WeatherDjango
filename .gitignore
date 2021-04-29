@@ -4,3 +4,5 @@ __pycharm__/
 static/
 assets/
 /__pycache__/
+static_cdn/
+db.sqlite3
