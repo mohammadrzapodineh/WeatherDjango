@@ -3,3 +3,4 @@ __pycharm__/
 .idea/
 static/
 assets/
+/__pycache__/
