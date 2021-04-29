@@ -1,5 +1,7 @@
 from pathlib import Path
 import os
+import django_heroku
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-uw+gj*3qx9si&9^(1$zd(r0^tmjv09j!-r_#7=3ety(j^nuzdc'
 DEBUG = True
@@ -94,3 +96,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static_cdn', 'media')
 MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+django_heroku.settings(locals())
